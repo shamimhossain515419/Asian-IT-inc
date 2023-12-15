@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+
+
+}
+
+body {
+  color: #FFF;
+  font-style: normal;
+}
+
+.primaryBg {
+  background-color: #0F172A;
+}
+
+.secondBg {
+  background-color: #0B1120;
+}
+
+.primaryColor {
+  color: #94A3B8;
+}
+
+.secondColor {
+  color: #E2E8F0;
+}
