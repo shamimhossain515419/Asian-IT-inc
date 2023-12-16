@@ -6,6 +6,7 @@ import MenuBar from "./MenuBar";
 import logo from '../../assets/asianitinc 2.png'
 
 import userImage from '../../assets/IMAGE (2).png'
+import { IoIosClose } from "react-icons/io";
 
 const Navbar = () => {
      const [Open, setOpen] = useState(true);
@@ -19,7 +20,7 @@ const Navbar = () => {
                                    <div className='flex justify-between items-center'>
                                         <div className=' logo flex  items-center gap-4'>
                                              <img src={logo} alt="image"></img>
-                                             <Link className="text-[16px]" to={'/'}>Asian IT inc</Link>
+                                             <Link className="text-[16px] text-white" to={'/'}>Asian IT inc</Link>
                                         </div>
 
                                         <div className='  flex items-center gap-3  space-x-5'>
@@ -30,20 +31,20 @@ const Navbar = () => {
                                                                  isActive ? " text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
                                                             } to="/">হোম </NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? " text-[14px]  rounded-[6px] bg-[#1F2937]  secondColor " : "primaryColor text-[14px]"
-                                                            } to="/courses">কোর্স এক্সেস </NavLink>
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                            } to="/corses-access">কোর্স এক্সেস </NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? " text-[14px]  rounded-[6px] bg-[#1F2937]  secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
                                                             } to="/dashboard"> ড্যাশবোর্ড</NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? " text-[14px]  rounded-[6px] bg-[#1F2937]  secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
                                                             } to="/leaderboard">লিডারবোর্ড </NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? " text-[14px]  rounded-[6px] bg-[#1F2937]  secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
                                                             } to="/live-session"> লাইভ সেশনস</NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? " text-[14px]  rounded-[6px] bg-[#1F2937]  secondColor " : "primaryColor text-[14px]"
-                                                            } to="/channel"> সাপোর্ট চ্যানেল</NavLink>
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                            } to="/support"> সাপোর্ট চ্যানেল</NavLink>
                                                        </div>
 
                                                        <div className=" flex gap-5 items-center ">
@@ -61,7 +62,7 @@ const Navbar = () => {
                                                             <div>
                                                                  {
                                                                       user ? <>
-                                                                           <img className=" h-[28px] w-[28px] rounded-full " src={userImage} alt="" />
+                                                                          <Link to={'/profile'}>  <img className=" h-[28px] w-[28px] rounded-full " src={userImage} alt="" /></Link>
                                                                       </> : < p> Login </p>
                                                                  }
                                                             </div>
@@ -90,11 +91,9 @@ const Navbar = () => {
                                                        </div>
                                                        <div>
                                                             {
-                                                                 Open ? <FaBars size={24} className=' '> </FaBars>
+                                                                 Open ? <FaBars size={24} className='  text-[#FFF]'> </FaBars>
                                                                       :
-                                                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
-                                                                           <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                                                      </svg>
+                                                                      <IoIosClose  className='  text-[#FFF]' size={28} />
 
                                                             }
 
