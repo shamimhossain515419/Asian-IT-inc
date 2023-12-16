@@ -22,7 +22,7 @@ const MainLoading = ({ children }) => {
           <div className=" flex justify-center items-center w-full h-screen ">
 
                <div className=' animate-spin '>
-                    <ImSpinner9 size={100} className=' text-[#38BDF8]' />
+                    <ImSpinner9 size={80} className=' text-[#38BDF8]' />
                </div>
 
           </div>

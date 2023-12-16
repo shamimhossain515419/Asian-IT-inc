@@ -19,7 +19,6 @@ const Courses_Access = () => {
                <Container>
 
                     <div className=' grid md:grid-cols-3 gap-9 w-full  p-2 overflow-hidden'>
-
                          <div className=' md:col-span-2 w-full'>
 
                               <div className=' '>
@@ -29,8 +28,8 @@ const Courses_Access = () => {
                                         </div>
 
                                    </div>
-                                   <div className=' flex justify-between flex-wrap gap-2 items-center  pt-10'>
-                                        <div className=" inline-block  my-2 sm:my-0 ">
+                                   <div className=' flex  justify-center  sm:justify-between flex-wrap gap-2 items-center  pt-10'>
+                                        <div className=" inline-block   my-2 sm:my-0 ">
                                              <div className=" bg-[#0284C7]  cursor-pointer  w-full border border-[#f8fafc14] rounded-[32px] px-[25px] py-[5px] flex items-center   justify-center  gap-2">
                                                   <FaArrowLeft className="  -mt-1 secondColor" size={"14px"} />
                                                   <p className=" text-[12px] secondColor">আগের লেসন</p>
