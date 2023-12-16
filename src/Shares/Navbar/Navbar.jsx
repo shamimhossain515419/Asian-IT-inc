@@ -26,24 +26,24 @@ const Navbar = () => {
                                         <div className='  flex items-center gap-3  space-x-5'>
                                              <div className=" hidden lg:flex">
                                                   <div className=" flex items-center gap-8  ">
-                                                       <div className=" flex items-center gap-[19px]  space-x-5">
+                                                       <div className=" flex items-center gap-[10px]  space-x-5">
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? " text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? " text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor hover:bg-[#8194ae6c]  rounded-[6px] duration-200  px-[12px] py-[9px] text-[14px]"
                                                             } to="/">হোম </NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor  text-[14px] hover:bg-[#8194ae6c]  rounded-[6px] duration-200  px-[12px] py-[9px]"
                                                             } to="/corses-access">কোর্স এক্সেস </NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px] hover:bg-[#8194ae6c]  rounded-[6px] duration-200  px-[12px] py-[9px]"
                                                             } to="/dashboard"> ড্যাশবোর্ড</NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px] hover:bg-[#8194ae6c]  rounded-[6px] duration-200  px-[12px] py-[9px]"
                                                             } to="/leaderboard">লিডারবোর্ড </NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px] hover:bg-[#8194ae6c]  rounded-[6px] duration-200  px-[12px] py-[9px]"
                                                             } to="/live-session"> লাইভ সেশনস</NavLink>
                                                             <NavLink className={({ isActive }) =>
-                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px]"
+                                                                 isActive ? "  text-[14px]  rounded-[6px] bg-[#8194ae6c]  px-[12px] py-[9px] secondColor " : "primaryColor text-[14px] hover:bg-[#8194ae6c]  rounded-[6px] duration-200  px-[12px] py-[9px]"
                                                             } to="/support"> সাপোর্ট চ্যানেল</NavLink>
                                                        </div>
 

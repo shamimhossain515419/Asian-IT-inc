@@ -34,9 +34,9 @@ const Footer = () => {
                                    </Link>
                               </div>
                               <div className="  pt-5 md:pt-0  flex justify-center md:justify-start gap-3 items-center ">
-                                   <Link className="  font-medium text-[13px] text-[#64748B]" to={'/'}> ডিসকোর্ড সাপোর্ট চ্যানেল </Link>
-                                   <Link className=" font-medium text-[13px] text-[#64748B]" to={'/'}>  আমাদের সম্পর্কে</Link>
-                                   <Link className=" font-medium text-[13px] text-[#64748B]" to={'/'}> যোগাযোগ </Link>
+                                   <Link className="  font-medium text-[14px]  text-[#64748B]" to={'/'}> ডিসকোর্ড সাপোর্ট চ্যানেল </Link>
+                                   <Link className=" font-medium text-[14px] text-[#64748B]" to={'/'}>  আমাদের সম্পর্কে</Link>
+                                   <Link className=" font-medium text-[14px] text-[#64748B]" to={'/'}> যোগাযোগ </Link>
 
                               </div>
 
