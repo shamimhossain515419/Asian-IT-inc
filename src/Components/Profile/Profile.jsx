@@ -47,9 +47,6 @@ const Profile = () => {
                               </div>
                          </div>
 
-
-
-
                          <div className=" p-3 w-full ">
 
                               <div>
@@ -59,10 +56,7 @@ const Profile = () => {
                                    </div>
                                    <hr className=" w-full  h-[2px]  text-[#F8FAFC14]" />
                               </div>
-
-
                               <div className=" py-4">
-
                                    <div>
                                         <form action="" className="  grid xl:grid-cols-2 gap-6 xl:gap-12 items-start ">
 
@@ -169,7 +163,7 @@ const Profile = () => {
                          </div>
                     </div>
                </Container>
-
+               {/* responsive  profile Navbar  */}
                {
                     active ? <div className="  fixed top-[70px]  transition ease-in-out delay-150  bg-black">
                          <div onClick={() => setActive(false)} className=" text-white absolute  py-2 right-1 top-1">
@@ -202,10 +196,6 @@ const Profile = () => {
                          </div>
                     </div> : null
                }
-
-
-
-
           </div >
      );
 };

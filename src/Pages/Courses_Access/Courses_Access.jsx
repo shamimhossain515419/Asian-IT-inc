@@ -103,8 +103,6 @@ const Courses_Access = () => {
                                              </div>
                                         </div>
 
-
-
                                         <div className=' w-11/12'>
                                              {
                                                   Classes?.map((item, index) => <div onClick={() => setActive(index)} key={index}>

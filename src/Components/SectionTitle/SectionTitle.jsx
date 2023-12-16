@@ -1,4 +1,3 @@
-import React from 'react';
 import './SectionTitle.css'
 const SectionTitle = ({ title_1, title_2, title_3,size, alignment, paragraph }) => {
      return (

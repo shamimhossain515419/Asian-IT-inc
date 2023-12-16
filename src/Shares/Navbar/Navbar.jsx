@@ -4,7 +4,6 @@ import { FaBars } from 'react-icons/fa';
 import { useState } from "react";
 import MenuBar from "./MenuBar";
 import logo from '../../assets/asianitinc 2.png'
-
 import userImage from '../../assets/IMAGE (2).png'
 import { IoIosClose } from "react-icons/io";
 
@@ -20,7 +19,7 @@ const Navbar = () => {
                                    <div className='flex justify-between items-center'>
                                         <div className=' logo flex  items-center gap-4'>
                                              <img src={logo} alt="image"></img>
-                                             <Link className="text-[16px] text-white" to={'/'}>Asian IT inc</Link>
+                                             <Link className="text-[16px] uppercase   font-semibold text-white" to={'/'}>Asian IT inc</Link>
                                         </div>
 
                                         <div className='  flex items-center gap-3  space-x-5'>

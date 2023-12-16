@@ -42,17 +42,13 @@ const Home = () => {
           <div>
 
                {/* banner section  */}
-               <div className=" secondBg py-10 w-full overflow-hidden">
-
-
+               <div className=" secondBg py-10 pb-24 w-full overflow-hidden">
                     <Container>
-                         <div className=" grid md:grid-cols-2  items-center gap-2">
-
+                         <div className=" md:grid md:grid-cols-2  items-start gap-2">
                               <div className="  md:pr-6 w-full ">
                                    <div className=" ">
                                         <img className="  " src={reactIcon} alt="" />
                                    </div>
-
                                    <div className=" mt-5">
                                         <h1 className=" text-[16px] text-[#0284C7]  pb-3">বাংলা রিয়্যাক্ট-রিডাক্স কোর্স (ভিডিও অনলি & সেলফ-পেসড)</h1>
 
@@ -71,15 +67,13 @@ const Home = () => {
                                              </div>
                                              <div className=" =  block sm:inline-block my-2 sm:my-0 ">
 
-                                                  <div className="  bg-transparent hover:bg-[#0284C7]    duration-150 cursor-pointer primaryColor  w-full border border-[#f8fafc14] rounded-[32px] px-[25px] py-[8px] flex items-center   justify-center  gap-2">
+                                                  <div className="  bg-transparent hover:bg-[#0284C7]  hover:text-[#E2E8F0]   duration-200 cursor-pointer primaryColor  w-full border border-[#f8fafc14] rounded-[32px] px-[25px] py-[8px] flex items-center   justify-center  gap-2">
 
-                                                       <p className="  text-[13px]  font-semibold  hover:text-[#E2E8F0]   ">ড্যাশবোর্ড এ চলুন</p>
+                                                       <p className="  text-[13px]  font-semibold     ">ড্যাশবোর্ড এ চলুন</p>
                                                   </div>
                                              </div>
-
                                         </div>
-
-                                        <div >
+                                        <div  className=" my-4">
                                              <div className=" mt-3 md:w-9/12  relative">
                                                   <div className=" my-0 relative">
                                                        <ProgressBar margin="2px" bgColor={"#099268"} height={"8px"} baseBgColor={"#1E293B"} labelSize="0px" completed={12.5} />;
@@ -89,34 +83,31 @@ const Home = () => {
                                                        <p>কোর্স অগ্রগতি -</p>
                                                        <p>7.14%</p>
                                                   </div>
-
                                              </div>
-
                                         </div>
-
                                    </div>
 
                               </div>
-                              <div className=" text-white sm:ml-5 w-full">
+                              <div className="  pt-9  text-white sm:ml-5 w-full">
                                    <div className=" flex justify-start  gap-0">
 
-                                        <div className=" border-t border-l  border-[#f8fafc36]  flex justify-start gap-2 items-center p-2 ">
+                                        <div className=" border-t border-l  border-[#f8fafc29]  flex justify-start gap-2 items-center p-2 ">
                                              <FaReact className=" text-[#61DAFB]" />
                                              <p>store.js</p>
                                         </div>
-                                        <div className=" border border-[#f8fafc36] border-b-0   bg-[#F8FAFC14] flex justify-start gap-2 items-center p-2 ">
+                                        <div className=" border border-[#f8fafc29] border-b-0   bg-[#f8fafc0f] flex justify-start gap-2 items-center p-2 ">
                                              <IoLogoJavascript />
                                              <p>enroll.jsx</p>
                                         </div>
 
                                    </div>
-
-                                   <div className="rounded-[4px] border border-[#f8fafc36] w-full overflow-hidden">
+                                   <div className="rounded-[4px] border border-[#f8fafc29] w-full overflow-hidden">
                                         <SyntaxHighlighter
-                                             wrapLongLines="true"
+                                             
+                                             lineProps="true"
                                              language="javascript"
                                              customStyle={{
-                                                  background: '#0D1324',
+                                                  background: '#0F172A66',
                                                   color: '#fff',
                                                   margin: '0',
                                              }}
@@ -389,7 +380,7 @@ const Home = () => {
 
 
 
-                                             
+
 
 
                                              <div className=" w-[3px] left-[13px] -z-10  absolute   top-2  h-full bg-[#075985]">
